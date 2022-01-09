@@ -1,3 +1,8 @@
+# 问题
+写一个类似微信渲染消息流的组件。
+
+支持不同类型：文本/图片/系统消息，如加某个人到群组里，撤销消息等。
+要求：请通过https://codesandbox.io/来进行答题，使用react框架来实现，请重点考虑到可扩展性，具体UI界面简单实现即可。
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

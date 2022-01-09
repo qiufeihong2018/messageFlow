@@ -1,38 +1,43 @@
-.App {
-  text-align: center;
+.app {
+  margin: auto;
+  position:absolute;
+  left:0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 420px;
+  height: 800px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.message-list {
+  background: #EBEAEB;
+  height: calc(100% - 82px);
+  overflow: auto;
+  padding: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.other-message{
+  line-height: 33px;
+}
+::-webkit-scrollbar {
+  width: 8px;
+  height: 12px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+::-webkit-scrollbar-track-piece {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
 }
 
-.App-link {
-  color: #61dafb;
+::-webkit-scrollbar-thumb:vertical {
+  height: 8px;
+  background-color: rgba(125, 125, 125, 0.7);
+  border-radius: 6px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+::-webkit-scrollbar-thumb:horizontal {
+  width: 8px;
+  background-color: rgba(125, 125, 125, 0.7);
+  border-radius: 6px;
 }

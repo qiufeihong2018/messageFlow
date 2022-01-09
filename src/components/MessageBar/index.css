@@ -1,0 +1,9 @@
+.message-bar {
+    height: 50px;
+    background: rgb(57, 56, 61);
+    padding: 5px;
+    color: #fff;
+    line-height: 50px;
+    display: flex;
+    justify-content: space-between;
+  }

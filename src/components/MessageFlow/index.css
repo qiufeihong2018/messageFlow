@@ -1,0 +1,28 @@
+.message-wrap {
+  display: flex;
+  flex: 1;
+  align-items: flex-start;
+}
+
+.text-message {
+  display: inline-block;
+  text-align: center;
+  border-radius: 4px;
+  line-height: 45px;
+  min-height: 20px;
+  min-width: 50px;
+  padding: 3px 10px;
+  font-size: 15px;
+  background: rgb(152, 255, 101);
+  border-color: rgb(152, 255, 101);
+}
+
+.system-message {
+  margin-left: 86px;
+}
+
+.message-avatar {
+  display: flex;
+  flex-direction: column;
+  width: 23%;
+}
